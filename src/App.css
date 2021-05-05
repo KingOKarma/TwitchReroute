@@ -14,7 +14,10 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #0d0d0e;
+  background-image: url(https://bucketbot.dev/imgs/round.png);
+  background-repeat: repeat;
+  animation: gradient 500s ease infinite;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -24,8 +27,45 @@
   color: white;
 }
 
+.MainText {
+  background-color: #0d0d0e;
+  align-items: center;
+  text-align: center;
+  border: 4px solid #fff;
+  border-radius: 50px;
+  min-height: 25vh;
+  display: flex;
+  padding: 5px;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.MainText a {
+  color: white;
+  padding: 0px 6px;
+  word-wrap: normal;
+  display: inline-block;
+}
+
+.MainText a:hover {
+  color: rgb(152, 152, 255);
+}
+
+.MainText code {
+  color: rgb(152, 152, 255);
+  padding: 0px 6px;
+  word-wrap: normal;
+  display: inline-block;
+}
+
 .App-link {
   color: #61dafb;
+}
+
+@keyframes gradient {
+  59% {
+    background-position: center;
+  }
 }
 
 @keyframes App-logo-spin {

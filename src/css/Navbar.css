@@ -1,0 +1,7 @@
+.NavBar {
+  background-color: #ff5353;
+  color: white;
+  border: 4px solid rgb(17, 17, 17);
+  padding: 5px;
+  font-size: calc(10px + 2vmin);
+}
